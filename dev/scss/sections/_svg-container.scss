@@ -5,15 +5,15 @@
 	height: 100vh;
 
 	@include md{
-		grid-template-columns: auto 70% auto;
-	}
-
-	@include lg{
 		grid-template-columns: auto 60% auto;
 	}
 
+	@include lg{
+		grid-template-columns: auto 50% auto;
+	}
+
 	@include xl{
-		grid-template-columns: auto 1200px auto;
+		grid-template-columns: auto 800px auto;
 	}
 	>div {
 		display: flex;

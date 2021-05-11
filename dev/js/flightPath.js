@@ -6,15 +6,16 @@ gsap.registerPlugin(MotionPathPlugin, MotionPathHelper);
 
 export let flightTL = gsap.timeline();
 
-flightTL.to("#space-ship", {
-    duration: 15,
+flightTL.to("#spaceship", {
+    duration: 6,
     motionPath: {
-        path: "#rocketPath",
-        align:"rocketPath",
-        autoRotate: true
+        path: "#r-loops",
+        align:"#r-loops",
+        alignOrigin: [0.5, 0.5 ], 
+        autoRotate: 90
     },
     ease: "power4.out"
 });
 
 
-// MotionPathHelper.create("#space-ship");
+// MotionPathHelper.create("#spaceship");

@@ -420,17 +420,17 @@ textarea {
 }
 @media (min-width: 768px) {
   #svg-container {
-    grid-template-columns: auto 70% auto;
+    grid-template-columns: auto 60% auto;
   }
 }
 @media (min-width: 992px) {
   #svg-container {
-    grid-template-columns: auto 60% auto;
+    grid-template-columns: auto 50% auto;
   }
 }
 @media (min-width: 1200px) {
   #svg-container {
-    grid-template-columns: auto 1200px auto;
+    grid-template-columns: auto 800px auto;
   }
 }
 #svg-container > div {

@@ -1,7 +1,11 @@
 {
   "AAInfo" : "This is a CodeKit 3 project config file. EDITING THIS FILE IS A POOR LIFE DECISION. Doing so may cause CodeKit to crash and\/or corrupt your project. Several critical values in this file are 64-bit integers, which JavaScript JSON parsers do not support because JavaScript cannot handle 64-bit integers. These values will be corrupted if the file is parsed with JavaScript. This file is not backwards-compatible with CodeKit 1 or 2. For details, see https:\/\/codekitapp.com\/",
   "buildSteps" : [
-
+    {
+      "name" : "Process All Remaining Files and Folders",
+      "stepType" : 1,
+      "uuidString" : "13DCDA40-839E-4380-9BC7-EF22805FBFBD"
+    }
   ],
   "creatorBuild" : "34127",
   "files" : {
@@ -12,21 +16,47 @@
       "co" : 0,
       "ft" : 16,
       "ma" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/deploy\/css\/styles-min.css",
       "oF" : 0,
       "pg" : 0
+    },
+    "\/deploy\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/index.html",
+      "oF" : 0
     },
     "\/deploy\/js\/scripts-min.js" : {
       "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/deploy\/js\/scripts-min-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
+    },
+    "\/design\/launch.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/design\/launch.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/design\/rocket.sketch" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/design\/rocket.sketch",
+      "oF" : 0
     },
     "\/dev\/content\/svg-container.kit" : {
       "cB" : 0,
@@ -36,68 +66,92 @@
       "oAP" : "\/dev\/content\/svg-container.html",
       "oF" : 0
     },
-    "\/dev\/content\/svg\/background.kit" : {
+    "\/dev\/content\/svg\/aliens.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/svg\/background.html",
+      "oAP" : "\/dev\/content\/svg\/aliens.html",
       "oF" : 0
     },
-    "\/dev\/content\/svg\/foreground.kit" : {
+    "\/dev\/content\/svg\/bushes-2Btrees.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/svg\/foreground.html",
+      "oAP" : "\/dev\/content\/svg\/bushes-2Btrees.html",
       "oF" : 0
     },
-    "\/dev\/content\/svg\/foreground\/front\/front.kit" : {
+    "\/dev\/content\/svg\/bushes-mountain.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/svg\/foreground\/front\/front.html",
+      "oAP" : "\/dev\/content\/svg\/bushes-mountain.html",
       "oF" : 0
     },
-    "\/dev\/content\/svg\/foreground\/middle\/mtn-front-left.kit" : {
+    "\/dev\/content\/svg\/comet.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/svg\/foreground\/middle\/mtn-front-left.html",
+      "oAP" : "\/dev\/content\/svg\/comet.html",
       "oF" : 0
     },
-    "\/dev\/content\/svg\/foreground\/middle\/mtn-front-right.kit" : {
+    "\/dev\/content\/svg\/mountains.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/svg\/foreground\/middle\/mtn-front-right.html",
+      "oAP" : "\/dev\/content\/svg\/mountains.html",
       "oF" : 0
     },
-    "\/dev\/content\/svg\/foreground\/middle\/orange-mtn.kit" : {
+    "\/dev\/content\/svg\/planet.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/svg\/foreground\/middle\/orange-mtn.html",
+      "oAP" : "\/dev\/content\/svg\/planet.html",
       "oF" : 0
     },
-    "\/dev\/content\/svg\/foreground\/middle\/red-mtn.kit" : {
+    "\/dev\/content\/svg\/r-loops.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/svg\/foreground\/middle\/red-mtn.html",
+      "oAP" : "\/dev\/content\/svg\/r-loops.html",
       "oF" : 0
     },
-    "\/dev\/content\/svg\/moon.kit" : {
+    "\/dev\/content\/svg\/rocket-smoke.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/svg\/moon.html",
+      "oAP" : "\/dev\/content\/svg\/rocket-smoke.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/svg\/spaceship.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/svg\/spaceship.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/svg\/stars.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/svg\/stars.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/svg\/terrain.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/svg\/terrain.html",
       "oF" : 0
     },
     "\/dev\/global\/head.kit" : {
@@ -120,7 +174,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/deploy\/index.html",
       "oF" : 2
     },
@@ -129,7 +183,7 @@
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/dev\/js\/demo-this-min.js",
       "oF" : 0,
       "sC" : 3,
@@ -157,13 +211,24 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/dev\/js\/listOff.js" : {
+    "\/dev\/js\/liftOff.js" : {
       "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
       "oA" : 1,
-      "oAP" : "\/dev\/js\/listOff-min.js",
+      "oAP" : "\/dev\/js\/liftOff-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/dev\/js\/planet.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/dev\/js\/planet-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -173,9 +238,9 @@
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/deploy\/js\/scripts-min.js",
-      "oF" : 2,
+      "oF" : 3,
       "sC" : 3,
       "tS" : 0
     },
@@ -184,7 +249,7 @@
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/dev\/js\/space-ship-min.js",
       "oF" : 0,
       "sC" : 3,
@@ -362,18 +427,75 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/deploy\/css\/styles.css",
       "oF" : 2,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
+    "\/gsap-bonus.tgz" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/gsap-bonus.tgz",
+      "oF" : 0
+    },
     "\/node_modules" : {
       "ft" : 65536,
       "oA" : 2,
       "oAP" : "\/node_modules",
       "oF" : 0
+    },
+    "\/node_modules\/gsap\/CSSPlugin.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/node_modules\/gsap\/CSSPlugin-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/node_modules\/gsap\/gsap-core.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/node_modules\/gsap\/gsap-core-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/node_modules\/gsap\/index.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/node_modules\/gsap\/index-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/package-lock.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/package-lock-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/package.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/package-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
     }
   },
   "hooks" : [
@@ -384,7 +506,7 @@
   },
   "projectAttributes" : {
     "creationDate" : 639010553.72737396,
-    "displayValue" : "Bella-redo.rocket",
+    "displayValue" : "Bella-svg-rocket-setup",
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets-peach",
     "iconImageWasSetByUser" : 0

@@ -1,1 +1,1 @@
-export let numberThing = 17;
+// export let numberThing = 17;
